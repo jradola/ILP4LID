@@ -10,7 +10,7 @@ Code-switching language identification with Integer Linear Programming:
 uv add ilp4lid          # or: pip install ilp4lid
 # comes with open-source HiGHS ILP solver, no licence needed
 # from source instead:
-uv add git+https://github.com/jradola/ILP4LID --tag v0.1.0 # or: pip install "git+https://github.com/jradola/ILP4LID@v0.1.0"
+uv add git+https://github.com/jradola/ILP4LID --tag v1.0.0 # or: pip install "git+https://github.com/jradola/ILP4LID@v1.0.0"
 # with `--extra gurobi` to use solver_name="gurobi" (faster, same results, but free license required)
 #`--extra mpi` for CPU parallelization when solving at a bigger scale
 ```
